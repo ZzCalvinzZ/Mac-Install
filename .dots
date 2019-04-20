@@ -10,14 +10,6 @@ function runDots() {
     # Run sections based on command line arguments
     for ARG in "$@"
     do
-        if [ $ARG == "dotfiles" ] || [ $ARG == "all" ]; then
-            # Run the dotfiles.sh Script
-            echo "------------------------------"
-            echo "Setting up JavaScript web development environment."
-            echo "------------------------------"
-            echo ""
-            ./dotfiles.sh
-        fi
         if [ $ARG == "osxprep" ] || [ $ARG == "all" ]; then
             # Run the osxprep.sh Script
             echo ""
@@ -86,6 +78,14 @@ function runDots() {
             echo "------------------------------"
             echo ""
             ./extra.sh
+        fi
+        if [ $ARG == "dotfiles" ] || [ $ARG == "all" ]; then
+            # Run the dotfiles.sh Script
+            echo "------------------------------"
+            echo "Setting up JavaScript web development environment."
+            echo "------------------------------"
+            echo ""
+            ./dotfiles.sh
         fi
     done
 
