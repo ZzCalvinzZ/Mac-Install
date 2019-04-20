@@ -48,6 +48,7 @@ brew install python3
 
 # Install Go
 brew install go
+brew install go-jira
 
 # Install ruby
 brew install ruby
