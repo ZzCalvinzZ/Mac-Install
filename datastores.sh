@@ -25,7 +25,7 @@ brew install mongo
 brew install redis
 
 # Install sequel pro
-brew cask install --appdir="/Applications" sequel-pro
+brew cask install sequel-pro
 
 brew services start mysql
 brew services start postgresql
