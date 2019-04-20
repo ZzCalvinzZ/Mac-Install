@@ -87,21 +87,21 @@ brew install zopfli
 brew install pandoc
 
 # Core casks
-brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="~/Applications" alacritty
-brew cask install --appdir="~/Applications" xquartz
+brew cask install alfred
+brew cask install alacritty
+brew cask install xquartz
 
 # Development tool casks
-brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vagrant
+brew cask install virtualbox
+brew cask install vagrant
 
 # Misc casks
-brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" skype
-brew cask install --appdir="/Applications" slack
-brew cask install --appdir="/Applications" spotify
-brew cask install --appdir="/Applications" dropbox
+brew cask install google-chrome
+brew cask install firefox
+brew cask install skype
+brew cask install slack
+brew cask install spotify
+brew cask install dropbox
 
 #Remove comment to install LaTeX distribution MacTeX
 #brew cask install --appdir="/Applications" mactex
