@@ -23,10 +23,14 @@ brew install mysql
 brew install postgresql
 brew install mongo
 brew install redis
-brew install elasticsearch
 
 # Install sequel pro
 brew cask install --appdir="/Applications" sequel-pro
+
+brew services start mysql
+brew services start postgresql
+brew services start mongodb
+brew services start redis
 
 # Remove outdated versions from the cellar.
 brew cleanup
