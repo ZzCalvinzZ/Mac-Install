@@ -52,12 +52,14 @@ brew install go-jira
 
 # Install ruby
 brew install ruby
+brew install brew-gem
 
 # Install more recent versions of some OS X tools.
 brew install neovim
 brew install grep
 brew install openssh
 brew install tmux
+brew gem install tmuxinator
 
 # Install font tools.
 brew tap bramstein/webfonttools
