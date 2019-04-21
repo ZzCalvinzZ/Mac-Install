@@ -93,6 +93,10 @@ brew install pandoc
 brew cask install alfred
 brew cask install alacritty
 brew cask install xquartz
+brew cask install hammerspoon
+
+brew tap koekeishiya/formulae
+brew install chunkwm
 
 # Development tool casks
 brew cask install virtualbox
