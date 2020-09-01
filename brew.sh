@@ -34,6 +34,7 @@ brew install fd
 brew install bat
 brew install jq
 brew install percol
+brew install lf
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed
 # Install Bash 4.
