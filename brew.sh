@@ -12,7 +12,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Install if we don't have it
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Make sure we’re using the latest Homebrew.
@@ -33,6 +33,10 @@ brew install findutils
 brew install fd
 brew install bat
 brew install jq
+brew install tldr
+brew install taskwarrior-tui
+brew install ncdu
+brew install tree
 brew install percol
 brew install lf
 # Install GNU `sed`, overwriting the built-in `sed`.
@@ -43,11 +47,15 @@ brew install bash
 # Install `wget` with IRI support.
 brew install wget
 
-# Install Go
+# Install Programming Languages
 brew install go
+brew install pyenv
+brew install pyenv-virtualenv
+brew install rbenv
+brew install nodenv
 
 # Install more recent versions of some OS X tools.
-brew install neovim
+brew install neovim --HEAD
 brew install grep
 brew install openssh
 brew install tmux
