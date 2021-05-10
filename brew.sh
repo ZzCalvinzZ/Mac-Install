@@ -43,24 +43,15 @@ brew install bash
 # Install `wget` with IRI support.
 brew install wget
 
-# Install Python
-brew install python
-brew install python3
-
 # Install Go
 brew install go
-brew install go-jira
-
-# Install ruby
-brew install ruby
-brew install brew-gem
 
 # Install more recent versions of some OS X tools.
 brew install neovim
 brew install grep
 brew install openssh
 brew install tmux
-brew gem install tmuxinator
+brew install tmuxinator
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -95,46 +86,10 @@ brew cask install alfred
 brew cask install alacritty
 brew cask install xquartz
 
-# Development tool casks
-brew cask install virtualbox
-brew cask install vagrant
-
 # Misc casks
-brew cask install google-chrome
-brew cask install firefox
-brew cask install skype
 brew cask install slack
 brew cask install spotify
-brew cask install dropbox
 
-#Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
-
-# Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install xz
-
-# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 
 # Remove outdated versions from the cellar.
 brew cleanup
